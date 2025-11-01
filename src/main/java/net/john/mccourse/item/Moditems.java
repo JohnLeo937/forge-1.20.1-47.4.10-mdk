@@ -13,6 +13,14 @@ public class Moditems {
 
     public static final RegistryObject<Item> ALEXANDRITE = ITEMS.register("alexandrite",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> JOHNDARITE = ITEMS.register("johndarite",
+            () -> new Item(new Item.Properties()));
+
+
+
+
+
+
 
 
 

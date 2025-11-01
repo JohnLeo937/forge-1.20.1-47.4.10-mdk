@@ -41,6 +41,8 @@ public class MCCourseMod {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(Moditems.ALEXANDRITE);
+            event.accept(Moditems.JOHNDARITE);
+
         }
     }
 
